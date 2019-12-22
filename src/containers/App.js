@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 
 import Filters from './Filters';
 import Flights from './Flights';
+import TableContainer from './TableContainer';
 
 export class AppContainer extends Component {
 
@@ -16,6 +17,7 @@ export class AppContainer extends Component {
       <div className="container">
         <Filters/>
         <Flights/>
+        <TableContainer/>
       </div>
     );
   }
